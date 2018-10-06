@@ -17,7 +17,8 @@ class CreateTransactionsTable extends Migration
             $table->increments('id');
             $table->uuid('buyer_id');
             $table->uuid('seller_id');
-            $table->uuid('payment_method');
+            $table->uuid('post_id');
+            $table->uuid('payment_method_id');
             $table->uuid('verification_code_id');
             $table->timestamps();
         });

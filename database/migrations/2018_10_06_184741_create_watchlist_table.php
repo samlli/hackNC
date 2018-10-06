@@ -18,7 +18,7 @@ class CreateWatchlistTable extends Migration
             $table->uuid('user_id');
             $table->uuid('isbn');
             $table->unsignedDecimal('max_price');
-            $table->string('worst_condition');
+            $table->string('worst_condition_id');
             $table->timestamps();
         });
     }

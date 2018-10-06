@@ -20,9 +20,9 @@ class UsersTableSeeder extends Seeder
           'email' => $faker->email,
           'password' => $faker->password,
           'phone_number' => $faker->randomNumber($nbDigits = 10),
-          'university' => $faker->numberBetween($min = 0, $max = 100);
-        ]
-      }
+          'university' => $faker->numberBetween($min = 0, $max = 99),
+        ];
+      });
 
     }
 }

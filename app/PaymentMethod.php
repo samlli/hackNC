@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class PaymentMethod extends Model
 {
 
-    private $table = 'payment_methods';
+    protected $table = 'payment_methods';
 
-    private $fillable = [
+    protected $fillable = [
         'payment_method',
     ];
 

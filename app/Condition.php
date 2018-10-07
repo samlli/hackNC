@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Condition extends Model
 {
-    private $table = 'conditions';
+    protected $table = 'conditions';
 
-    private $fillable = [
+    protected $fillable = [
         'condition',
     ];
 

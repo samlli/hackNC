@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class VerificationCode extends Model
 {
 
-    private $table = 'verification_codes';
+    protected $table = 'verification_codes';
 
-    private $fillable = [
+    protected $fillable = [
         'buyer_code',
         'seller_code',
     ];

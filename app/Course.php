@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Course extends Model
 {
 
-    private $table = 'courses'
+    protected $table = 'courses';
 
-    private $fillable = [
+    protected $fillable = [
         'university_id',
         'department_abrv',
         'course_number',

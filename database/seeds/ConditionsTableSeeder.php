@@ -12,10 +12,6 @@ class ConditionsTableSeeder extends Seeder
     public function run()
     {
 
-        $factory->define(App\Condition::class, function (Faker $faker)) {
-          return [
-            'condition' => $faker->word,
-        });
 
     }
 }

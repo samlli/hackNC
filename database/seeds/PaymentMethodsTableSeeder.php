@@ -12,11 +12,7 @@ class PaymentMethodsTableSeeder extends Seeder
     public function run()
     {
 
-        $factory->define(App\PaymentMethod::class, function (Faker $faker)) {
-          return [
-            'payment_method' => $faker->word(),
-          ];
-        });
+
 
     }
 }

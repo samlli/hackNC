@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class University extends Model
 {
 
-    private $table = 'universities';
+    protected $table = 'universities';
 
-    private $fillable = [
+    protected $fillable = [
         'name',
         'country',
         'state',

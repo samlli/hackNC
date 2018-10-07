@@ -119,3 +119,6 @@
 21:29:37.325582 table@compaction committed F-1 S-4KiB Ke·0 D·522 T·1.742756ms
 21:29:37.325702 table@remove removed @24
 21:29:37.325799 table@remove removed @23
+=============== Oct 7, 2018 (EDT) ===============
+09:55:20.140676 db@close closing
+09:55:20.143841 db@close done T·3.15954ms

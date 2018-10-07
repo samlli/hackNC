@@ -185,3 +185,6 @@
 21:29:13.638855 version@stat F·[2 1] S·7KiB[539B 6KiB] Sc·[0.50 0.00]
 21:29:13.640040 db@janitor F·5 G·0
 21:29:13.640073 db@open done T·8.239313ms
+=============== Oct 7, 2018 (EDT) ===============
+09:55:20.135633 db@close closing
+09:55:20.138674 db@close done T·3.042322ms

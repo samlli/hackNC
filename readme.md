@@ -1,3 +1,7 @@
+## BUY, SELL, AND TRADE TEXTBOOKS
+
+Our website, built using Laravel, allows students at hundreds of universities across the world to buy, sell, and trade their textbooks using a distributed blockchain style application.  Users can make and confirm transactions online and in person.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
